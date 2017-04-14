@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-p {
+p, li, td, th {
     font-size: 20px;
 }
 
@@ -199,7 +199,7 @@ section h2 {
     color: #59001F;
 }
 
-section.success, section.success h2 {
+section.success, section.success h2, section.success ul li {
     color: #fff;
     background: #85001F;
 }

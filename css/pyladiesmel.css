@@ -193,10 +193,13 @@ section {
     padding: 100px 0;
 }
 
-section h2 {
+section h2, h3 {
     margin: 0;
-    font-size: 3em;
     color: #59001F;
+}
+
+section h2 {
+    font-size: 3em;
 }
 
 section.success, section.success h2, section.success ul li {
@@ -221,6 +224,10 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+}
+
+.subheading {
+    padding-top: 100px;
 }
 
 #portfolio .portfolio-item {
